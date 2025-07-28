@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: 28693115293f9c34a9fa24baa59d73ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7441182696372287770
+    second: Debu-Sheet_0
+  - first:
+      213: -7515125838292513381
+    second: Debu-Sheet_1
+  - first:
+      213: -3784316006579234213
+    second: Debu-Sheet_2
+  - first:
+      213: -2162019960768216797
+    second: Debu-Sheet_3
+  - first:
+      213: -3390995953736748318
+    second: Debu-Sheet_4
+  - first:
+      213: 8765657730894760015
+    second: Debu-Sheet_5
+  - first:
+      213: -1878568499928335190
+    second: Debu-Sheet_6
+  - first:
+      213: 8327097678158793206
+    second: Debu-Sheet_7
+  - first:
+      213: 698987207563448652
+    second: Debu-Sheet_8
+  - first:
+      213: -1804990865237555419
+    second: Debu-Sheet_9
+  - first:
+      213: 5836646550398358907
+    second: Debu-Sheet_10
+  - first:
+      213: -5188064192938424808
+    second: Debu-Sheet_11
+  - first:
+      213: -3651109308487532592
+    second: Debu-Sheet_12
+  - first:
+      213: 9187242704488703872
+    second: Debu-Sheet_13
+  - first:
+      213: 3307235551303732564
+    second: Debu-Sheet_14
+  - first:
+      213: -7679283334257447566
+    second: Debu-Sheet_15
+  - first:
+      213: -8576005360783612760
+    second: Debu-Sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Debu-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 108
+        width: 174
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e642f143cb9bb890800000000000000
+      internalID: -7441182696372287770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debu-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 80
+        width: 262
+        height: 219
+      alignment: 9
+      pivot: {x: 0.49999964, y: 0.5263615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d073eedd8e4b790800000000000000
+      internalID: -7515125838292513381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debu-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 78
+        width: 274
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3214b11fc46fef1e0800000000000000
+      internalID: -2162019960768216797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debu-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 72
+        width: 284
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4883a8834fd5a970800000000000000
+      internalID: 8765657730894760015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debu-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 72
+        width: 293
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f982ac283bcf8370800000000000000
+      internalID: 8327097678158793206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2d45e15dfc09d204396fc3ee1a071378
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Debu-Sheet_0: -7441182696372287770
+      Debu-Sheet_1: -7515125838292513381
+      Debu-Sheet_3: -2162019960768216797
+      Debu-Sheet_5: 8765657730894760015
+      Debu-Sheet_7: 8327097678158793206
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

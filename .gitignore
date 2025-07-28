@@ -1,0 +1,37 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio / JetBrains Rider
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.suo
+*.tmp
+*.userprefs
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Unity Asset Store tools
+Assets/AssetStoreTools*
+
+# Crash Reports
+sysinfo.txt
+
+# git-lfs placeholders (optional)
+*.psd
+*.tga
+*.wav
+*.mp4
+*.mov

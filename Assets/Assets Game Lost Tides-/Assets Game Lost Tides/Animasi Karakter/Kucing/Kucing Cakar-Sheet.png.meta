@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 44d3f744611bbc448a89f44f8939abac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4068956982521635853
+    second: Kucing Cakar-Sheet_0
+  - first:
+      213: 690819434042418780
+    second: Kucing Cakar-Sheet_1
+  - first:
+      213: -5253835503656187617
+    second: Kucing Cakar-Sheet_2
+  - first:
+      213: 3686430685589336349
+    second: Kucing Cakar-Sheet_3
+  - first:
+      213: -4518814920891160606
+    second: Kucing Cakar-Sheet_4
+  - first:
+      213: 2120295147941660702
+    second: Kucing Cakar-Sheet_5
+  - first:
+      213: -203973317289357079
+    second: Kucing Cakar-Sheet_6
+  - first:
+      213: -852435541973354849
+    second: Kucing Cakar-Sheet_7
+  - first:
+      213: 4980551710503279313
+    second: Kucing Cakar-Sheet_8
+  - first:
+      213: -4287954004522497391
+    second: Kucing Cakar-Sheet_9
+  - first:
+      213: 4323241066245906251
+    second: Kucing Cakar-Sheet_10
+  - first:
+      213: -4731879963863013034
+    second: Kucing Cakar-Sheet_11
+  - first:
+      213: -8026610470132161978
+    second: Kucing Cakar-Sheet_12
+  - first:
+      213: 1989717757772483026
+    second: Kucing Cakar-Sheet_13
+  - first:
+      213: -2940016723201787036
+    second: Kucing Cakar-Sheet_14
+  - first:
+      213: 3052674456612901049
+    second: Kucing Cakar-Sheet_15
+  - first:
+      213: -3769078047980102905
+    second: Kucing Cakar-Sheet_16
+  - first:
+      213: -800240443189749979
+    second: Kucing Cakar-Sheet_17
+  - first:
+      213: 5468461293381558716
+    second: Kucing Cakar-Sheet_18
+  - first:
+      213: 3243418038144529377
+    second: Kucing Cakar-Sheet_19
+  - first:
+      213: 8426622060661174704
+    second: Kucing Cakar-Sheet_20
+  - first:
+      213: 5065534689589635718
+    second: Kucing Cakar-Sheet_21
+  - first:
+      213: -8098631622458561643
+    second: Kucing Cakar-Sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 254
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbd372ce292887c0800000000000000
+      internalID: -4068956982521635853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 266
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56e80a7d98469900800000000000000
+      internalID: 690819434042418780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 0
+        width: 266
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19cc380270a617b0800000000000000
+      internalID: -5253835503656187617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 0
+        width: 323
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11f6af4d25d82330800000000000000
+      internalID: 3686430685589336349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 0
+        width: 372
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e72c8a65c1f941c0800000000000000
+      internalID: -4518814920891160606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1
+        width: 375
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e180c08043dcc6d10800000000000000
+      internalID: 2120295147941660702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 0
+        width: 338
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e05f4f39575b2df0800000000000000
+      internalID: -203973317289357079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 0
+        width: 308
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96b2c6146a8b24f0800000000000000
+      internalID: -852435541973354849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 0
+        width: 227
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da130284697e1540800000000000000
+      internalID: 4980551710503279313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 50
+        width: 47
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a093b2d802e74c0800000000000000
+      internalID: -4287954004522497391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 0
+        width: 176
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fd7ff18dc3ffb30800000000000000
+      internalID: 4323241066245906251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3803
+        y: 26
+        width: 32
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65928225e3cf45eb0800000000000000
+      internalID: -4731879963863013034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4010
+        y: 0
+        width: 179
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6426751ed40cb9090800000000000000
+      internalID: -8026610470132161978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4181
+        y: 26
+        width: 32
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9c05b32c5ec9b10800000000000000
+      internalID: 1989717757772483026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4319
+        y: 0
+        width: 239
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b79dbfd56f237d0800000000000000
+      internalID: -2940016723201787036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4607
+        y: 0
+        width: 335
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b012599e374d5a20800000000000000
+      internalID: 3052674456612901049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4943
+        y: 107
+        width: 26
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b5c6b1c7b81bbc0800000000000000
+      internalID: -3769078047980102905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5030
+        y: 0
+        width: 299
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52716c88e89f4e4f0800000000000000
+      internalID: -800240443189749979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 5327
+        y: 62
+        width: 38
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb12bfbb290e3eb40800000000000000
+      internalID: 5468461293381558716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 0
+        width: 272
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3f2b5758fe20d20800000000000000
+      internalID: 3243418038144529377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5711
+        y: 0
+        width: 44
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1fd263e1061f470800000000000000
+      internalID: 8426622060661174704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5843
+        y: 0
+        width: 263
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aa86a36f46c4640800000000000000
+      internalID: 5065534689589635718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kucing Cakar-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 6101
+        y: 0
+        width: 41
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bac90a271eb9f80800000000000000
+      internalID: -8098631622458561643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a8c4699810b20224e9f3e7064fa8ff90
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kucing Cakar-Sheet_0: -4068956982521635853
+      Kucing Cakar-Sheet_1: 690819434042418780
+      Kucing Cakar-Sheet_10: 4323241066245906251
+      Kucing Cakar-Sheet_11: -4731879963863013034
+      Kucing Cakar-Sheet_12: -8026610470132161978
+      Kucing Cakar-Sheet_13: 1989717757772483026
+      Kucing Cakar-Sheet_14: -2940016723201787036
+      Kucing Cakar-Sheet_15: 3052674456612901049
+      Kucing Cakar-Sheet_16: -3769078047980102905
+      Kucing Cakar-Sheet_17: -800240443189749979
+      Kucing Cakar-Sheet_18: 5468461293381558716
+      Kucing Cakar-Sheet_19: 3243418038144529377
+      Kucing Cakar-Sheet_2: -5253835503656187617
+      Kucing Cakar-Sheet_20: 8426622060661174704
+      Kucing Cakar-Sheet_21: 5065534689589635718
+      Kucing Cakar-Sheet_22: -8098631622458561643
+      Kucing Cakar-Sheet_3: 3686430685589336349
+      Kucing Cakar-Sheet_4: -4518814920891160606
+      Kucing Cakar-Sheet_5: 2120295147941660702
+      Kucing Cakar-Sheet_6: -203973317289357079
+      Kucing Cakar-Sheet_7: -852435541973354849
+      Kucing Cakar-Sheet_8: 4980551710503279313
+      Kucing Cakar-Sheet_9: -4287954004522497391
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

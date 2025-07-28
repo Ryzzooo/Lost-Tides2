@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: 612fb4c332edb7b4b93def0f49beb8ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8048851105931207017
+    second: Slumb (boss)-Sheet_0
+  - first:
+      213: 1339969048766817065
+    second: Slumb (boss)-Sheet_1
+  - first:
+      213: 2577354299713130334
+    second: Slumb (boss)-Sheet_2
+  - first:
+      213: -5221106738749181512
+    second: Slumb (boss)-Sheet_3
+  - first:
+      213: 2127137276732553980
+    second: Slumb (boss)-Sheet_4
+  - first:
+      213: 3837109409242021567
+    second: Slumb (boss)-Sheet_5
+  - first:
+      213: -2690026898651244967
+    second: Slumb (boss)-Sheet_6
+  - first:
+      213: 7965427353773895144
+    second: Slumb (boss)-Sheet_7
+  - first:
+      213: 1616011263927832871
+    second: Slumb (boss)-Sheet_8
+  - first:
+      213: -2092627923978585107
+    second: Slumb (boss)-Sheet_9
+  - first:
+      213: -1226497003201044175
+    second: Slumb (boss)-Sheet_10
+  - first:
+      213: -5415186026233913376
+    second: Slumb (boss)-Sheet_11
+  - first:
+      213: 2552988466832441313
+    second: Slumb (boss)-Sheet_12
+  - first:
+      213: 6121538036001417653
+    second: Slumb (boss)-Sheet_13
+  - first:
+      213: -6000965988226765215
+    second: Slumb (boss)-Sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 185
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9612a0baf6343bf60800000000000000
+      internalID: 8048851105931207017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 185
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923a3c910c6889210800000000000000
+      internalID: 1339969048766817065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 0
+        width: 185
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f0ab6841a94c320800000000000000
+      internalID: 2577354299713130334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 0
+        width: 185
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1f47e6517ea87b0800000000000000
+      internalID: -5221106738749181512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 0
+        width: 185
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfab228451c158d10800000000000000
+      internalID: 2127137276732553980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 0
+        width: 185
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbefd268da6204530800000000000000
+      internalID: 3837109409242021567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 185
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95695adb9ca1baad0800000000000000
+      internalID: -2690026898651244967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 0
+        width: 185
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed6fd1c9f1ea8e60800000000000000
+      internalID: 7965427353773895144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 0
+        width: 185
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721d27bbea93d6610800000000000000
+      internalID: 1616011263927832871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3602
+        y: 0
+        width: 185
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb71388dfd75f2e0800000000000000
+      internalID: -2092627923978585107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 0
+        width: 185
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131ee1e497b9afee0800000000000000
+      internalID: -1226497003201044175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4370
+        y: 0
+        width: 185
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef1ba1000569d4b0800000000000000
+      internalID: -5415186026233913376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4754
+        y: 0
+        width: 185
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef7739fb790e6320800000000000000
+      internalID: 2552988466832441313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5138
+        y: 0
+        width: 185
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b928e2196214f450800000000000000
+      internalID: 6121538036001417653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slumb (boss)-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5522
+        y: 0
+        width: 185
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eea8a6a3948bca0800000000000000
+      internalID: -6000965988226765215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
