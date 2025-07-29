@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tiang Listrik_0: -8182203858368033230
+      Tiang Listrik_1: -1292146500889293477
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

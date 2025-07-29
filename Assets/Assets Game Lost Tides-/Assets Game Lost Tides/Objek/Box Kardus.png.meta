@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Box Kardus_0: -2027172030379002707
+      Box Kardus_1: -3211696617845612483
+      Box Kardus_2: 6172176725271059040
+      Box Kardus_3: -9054703514025390112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

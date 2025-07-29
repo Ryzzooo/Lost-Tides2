@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kucing Jalan-Sheet_0: -2387510370218244118
+      Kucing Jalan-Sheet_1: -5622867899854442653
+      Kucing Jalan-Sheet_2: 5173013543503502520
+      Kucing Jalan-Sheet_3: 2177880416871119604
+      Kucing Jalan-Sheet_4: -5929347097485216003
+      Kucing Jalan-Sheet_5: 5552270162010702921
+      Kucing Jalan-Sheet_6: -5871876330750714696
+      Kucing Jalan-Sheet_7: -8255160494291033871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

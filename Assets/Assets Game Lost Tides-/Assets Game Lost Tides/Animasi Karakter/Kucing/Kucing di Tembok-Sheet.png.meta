@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kucing di Tembok-Sheet_0: -972521726369889082
+      Kucing di Tembok-Sheet_1: -336482653818055589
+      Kucing di Tembok-Sheet_2: 4708129451269172636
+      Kucing di Tembok-Sheet_3: -5534407653875478459
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

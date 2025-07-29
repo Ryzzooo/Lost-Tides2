@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OBJBG-1 Motel-Color-White_0: -226947640000549773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

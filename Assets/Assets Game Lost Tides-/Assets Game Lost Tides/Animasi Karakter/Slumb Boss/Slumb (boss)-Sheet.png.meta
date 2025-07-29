@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Slumb (boss)-Sheet_0: 8048851105931207017
+      Slumb (boss)-Sheet_1: 1339969048766817065
+      Slumb (boss)-Sheet_10: -1226497003201044175
+      Slumb (boss)-Sheet_11: -5415186026233913376
+      Slumb (boss)-Sheet_12: 2552988466832441313
+      Slumb (boss)-Sheet_13: 6121538036001417653
+      Slumb (boss)-Sheet_14: -6000965988226765215
+      Slumb (boss)-Sheet_2: 2577354299713130334
+      Slumb (boss)-Sheet_3: -5221106738749181512
+      Slumb (boss)-Sheet_4: 2127137276732553980
+      Slumb (boss)-Sheet_5: 3837109409242021567
+      Slumb (boss)-Sheet_6: -2690026898651244967
+      Slumb (boss)-Sheet_7: 7965427353773895144
+      Slumb (boss)-Sheet_8: 1616011263927832871
+      Slumb (boss)-Sheet_9: -2092627923978585107
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

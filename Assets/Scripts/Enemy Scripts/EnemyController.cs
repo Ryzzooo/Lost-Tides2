@@ -18,22 +18,22 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        // transform.Translate(Vector2.right * movementSpeed * Time.deltaTime);
-        // if (!adaGround())
-        // {
-        //     if (isFacingRight)
-        //     {
-        //         healthBarHUD.localEulerAngles = Vector2.up * 180;
-        //         transform.eulerAngles = Vector2.up * 180;
-        //         isFacingRight = false;
-        //     }
-        //     else 
-        //     {
-        //         healthBarHUD.localEulerAngles = Vector2.zero;
-        //         transform.eulerAngles = Vector2.zero;
-        //         isFacingRight = true;
-        //     }
-        // }
+        transform.Translate(Vector2.right * movementSpeed * Time.deltaTime);
+        if (!adaGround())
+        {
+            if (isFacingRight)
+            {
+                healthBarHUD.localEulerAngles = Vector2.up * 180;
+                transform.eulerAngles = Vector2.up * 180;
+                isFacingRight = false;
+            }
+            else 
+            {
+                healthBarHUD.localEulerAngles = Vector2.zero;
+                transform.eulerAngles = Vector2.zero;
+                isFacingRight = true;
+            }
+        }
 
     }
 

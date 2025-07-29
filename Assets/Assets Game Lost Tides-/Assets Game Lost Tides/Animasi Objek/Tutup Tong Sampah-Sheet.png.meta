@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tutup Tong Sampah-Sheet_0: -2210963766495152390
+      Tutup Tong Sampah-Sheet_1: -4172671311070598952
+      Tutup Tong Sampah-Sheet_2: -309647677188145020
+      Tutup Tong Sampah-Sheet_3: -3918338980523096249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

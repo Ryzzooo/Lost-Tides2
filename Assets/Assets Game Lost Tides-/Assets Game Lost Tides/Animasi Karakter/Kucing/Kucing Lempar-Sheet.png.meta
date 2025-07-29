@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kucing Lempar-Sheet_0: -3341743458790626858
+      Kucing Lempar-Sheet_1: -5015245602182009366
+      Kucing Lempar-Sheet_2: -3957053235500857902
+      Kucing Lempar-Sheet_3: -6018574938598608438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

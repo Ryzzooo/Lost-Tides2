@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tileset Terpisah_0: 5000540028942188592
+      Tileset Terpisah_1: 5219005330220895386
+      Tileset Terpisah_10: -1500631672926228791
+      Tileset Terpisah_11: 8237128611632469481
+      Tileset Terpisah_12: 451533092183754758
+      Tileset Terpisah_13: -3655491318244025072
+      Tileset Terpisah_14: -7966442912832724717
+      Tileset Terpisah_15: -7773191720755607910
+      Tileset Terpisah_16: -1437886599544909795
+      Tileset Terpisah_17: 8256520884529316609
+      Tileset Terpisah_18: -6775243458484607078
+      Tileset Terpisah_19: 7189381899713818485
+      Tileset Terpisah_2: 711116438063939890
+      Tileset Terpisah_20: -1140572764550228639
+      Tileset Terpisah_21: -4319210812772901786
+      Tileset Terpisah_22: -7742836581647742075
+      Tileset Terpisah_23: -4590400424241043214
+      Tileset Terpisah_24: 7188350328350410831
+      Tileset Terpisah_25: -6352995272815335834
+      Tileset Terpisah_26: -881108592161795873
+      Tileset Terpisah_27: 4744453732159253235
+      Tileset Terpisah_28: -3596198001142550764
+      Tileset Terpisah_29: 6455429049106699347
+      Tileset Terpisah_3: -5425562043999860770
+      Tileset Terpisah_30: -3239793979003383094
+      Tileset Terpisah_31: 2155797035194736966
+      Tileset Terpisah_4: -1255145084675179571
+      Tileset Terpisah_5: 3505639724823579639
+      Tileset Terpisah_6: -7510525357289672094
+      Tileset Terpisah_7: 549992572721608610
+      Tileset Terpisah_8: 2087563100765376239
+      Tileset Terpisah_9: 9189161424826020755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

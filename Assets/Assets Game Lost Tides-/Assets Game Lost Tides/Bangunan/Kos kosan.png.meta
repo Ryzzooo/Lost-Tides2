@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kos kosan_0: 7000535635603582897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
