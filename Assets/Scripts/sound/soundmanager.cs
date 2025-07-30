@@ -1,35 +1,43 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
-public class soundmanager : MonoBehaviour
+public class SoundManager : MonoBehaviour
 {
-    public static soundmanager Instance;
+    public static SoundManager Instance;
 
-    [SerializeField] private soundlibrary sfxLibrary;
-    [SerializeField] private AudioSource sfx2DSource;
+    public soundlibrary soundLibrary;
+    public AudioSource sfxSource;
+    public AudioMixer mixer;
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (Instance != null)
         {
             Destroy(gameObject);
+            return;
         }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
-    public void PlaySound(string soundName)
+    private void Start()
     {
-        AudioClip clip = sfxLibrary.GetClipFromName(soundName);
+        float savedVolume = PlayerPrefs.GetFloat("SFXVolume", 0f);
+        mixer.SetFloat("SFXVolume", savedVolume);
+    }
+
+    public void SetVolume(float volume)
+    {
+        mixer.SetFloat("SFXVolume", volume);
+        PlayerPrefs.SetFloat("SFXVolume", volume);
+    }
+
+    public void Play(string soundName)
+    {
+        AudioClip clip = soundLibrary.GetClipFromName(soundName);
         if (clip != null)
         {
-            sfx2DSource.PlayOneShot(clip);
-        }
-        else
-        {
-            Debug.LogWarning("Sound not found: " + soundName);
+            sfxSource.PlayOneShot(clip);
         }
     }
 }

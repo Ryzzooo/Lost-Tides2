@@ -13,12 +13,10 @@ public class IntroScene : MonoBehaviour
 
     private void LoadRumahScene()
     {
-        musicmanager.Instance.PlayMusic("game");
         SceneManager.LoadScene("SampleScene");
     }
     public void SkipIntroAndPlay()
     {
-        musicmanager.Instance.PlayMusic("game");
         SceneManager.LoadScene("SampleScene");
     }
     

@@ -709,8 +709,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lost Tides
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e7dcf2e2237060b4a8d2ce33b7a9e2cc, type: 2}
-  m_sharedMaterial: {fileID: -712049333242632566, guid: e7dcf2e2237060b4a8d2ce33b7a9e2cc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
+  m_sharedMaterial: {fileID: 6817111023381710360, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -734,8 +734,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 128
-  m_fontSizeBase: 128
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -881,7 +881,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1822439502}
   - {fileID: 748088028}
   - {fileID: 1354907041}
   - {fileID: 1956414462}
@@ -904,7 +903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 251926ebf2312ab4fa49f6f1141a36ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: 73d22f72ebf29814bb1bc0fee60f3329, type: 2}
   musicSlider: {fileID: 1163461800}
   sfxSlider: {fileID: 1400110767}
 --- !u!1 &225906896
@@ -1045,8 +1043,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Option
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1a3952d47de048b4c96c4fb617d85060, type: 2}
-  m_sharedMaterial: {fileID: -4049865692959037534, guid: 1a3952d47de048b4c96c4fb617d85060, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
+  m_sharedMaterial: {fileID: 6817111023381710360, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1157,7 +1155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5, y: -384}
+  m_AnchoredPosition: {x: -0.48498535, y: -395}
   m_SizeDelta: {x: -484.2829, y: 101.45581}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302924748
@@ -1439,7 +1437,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!222 &438629980
 CanvasRenderer:
@@ -1932,6 +1930,7 @@ RectTransform:
   - {fileID: 2086943744}
   - {fileID: 887780499}
   - {fileID: 1435570626}
+  - {fileID: 1822439502}
   m_Father: {fileID: 198567865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2185,8 +2184,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 402, y: 78}
-  m_SizeDelta: {x: 309.7171, y: 101.4558}
+  m_AnchoredPosition: {x: 404.02, y: 64.365}
+  m_SizeDelta: {x: 484.0903, y: 128.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887780500
 MonoBehaviour:
@@ -2392,7 +2391,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!222 &921427399
 CanvasRenderer:
@@ -2492,9 +2491,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 198567866}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: UpdateMusicVolume
+      - m_Target: {fileID: 1990723870}
+        m_TargetAssemblyTypeName: MusicManager, Assembly-CSharp
+        m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2563,8 +2562,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1a3952d47de048b4c96c4fb617d85060, type: 2}
-  m_sharedMaterial: {fileID: -4049865692959037534, guid: 1a3952d47de048b4c96c4fb617d85060, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
+  m_sharedMaterial: {fileID: 6817111023381710360, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3005,7 +3004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: -220}
+  m_AnchoredPosition: {x: 0.0000076294, y: -247}
   m_SizeDelta: {x: 309.7171, y: 101.4558}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1435570627
@@ -3053,8 +3052,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 198567866}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Quit
+        m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3281,8 +3280,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1a3952d47de048b4c96c4fb617d85060, type: 2}
-  m_sharedMaterial: {fileID: -4049865692959037534, guid: 1a3952d47de048b4c96c4fb617d85060, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
+  m_sharedMaterial: {fileID: 6817111023381710360, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3312,7 +3311,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3641,17 +3640,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822439501}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 2.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 195439807}
-  m_Father: {fileID: 198567865}
+  m_Father: {fileID: 748088028}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 311}
+  m_AnchoredPosition: {x: 0.0032348633, y: 511}
   m_SizeDelta: {x: 793.0216, y: 175.0469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1881124149
@@ -3688,9 +3687,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -6.5581055, y: 0}
+  m_SizeDelta: {x: 125.0936, y: 0}
+  m_Pivot: {x: 0.44757426, y: 0.5}
 --- !u!114 &1881124151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3713,8 +3712,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1a3952d47de048b4c96c4fb617d85060, type: 2}
-  m_sharedMaterial: {fileID: -4049865692959037534, guid: 1a3952d47de048b4c96c4fb617d85060, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
+  m_sharedMaterial: {fileID: 6817111023381710360, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3862,6 +3861,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicLibrary: {fileID: 1990723871}
   musicSource: {fileID: 567581459}
+  mixer: {fileID: 24100000, guid: 73d22f72ebf29814bb1bc0fee60f3329, type: 2}
+  fadeDuration: 1
 --- !u!114 &1990723871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3893,8 +3894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53d8a21a9915ac54caaa14ea4785e9f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sfxLibrary: {fileID: 1990723873}
-  sfx2DSource: {fileID: 2038055960}
+  soundLibrary: {fileID: 1990723873}
+  sfxSource: {fileID: 2038055960}
+  mixer: {fileID: 24100000, guid: 73d22f72ebf29814bb1bc0fee60f3329, type: 2}
 --- !u!114 &1990723873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3910,13 +3912,13 @@ MonoBehaviour:
   soundEffects:
   - groupID: CatAttack
     clips:
-    - {fileID: 8300000, guid: 15b861377b0b7df44a7ec305b15aae97, type: 3}
+    - {fileID: 8300000, guid: a2db0a8f2e76e1645a7ecae79c8b29ae, type: 3}
   - groupID: CatJump
     clips:
-    - {fileID: 8300000, guid: d92cea87378c22f48a46f0274bc9c778, type: 3}
+    - {fileID: 8300000, guid: 3d53bd488819b36409ac342e96629311, type: 3}
   - groupID: Catwalk
     clips:
-    - {fileID: 8300000, guid: aee4f3357f9501a4485aaab3ff0b7b51, type: 3}
+    - {fileID: 8300000, guid: 538a38576a2b185408e0954cd6679498, type: 3}
 --- !u!4 &1990723874
 Transform:
   m_ObjectHideFlags: 0
@@ -4282,8 +4284,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 198567866}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play
+        m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

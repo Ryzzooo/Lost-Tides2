@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Pausemenu : MonoBehaviour
 {
@@ -8,19 +10,33 @@ public class Pausemenu : MonoBehaviour
     public GameObject volumePanel;
     public GameObject creditPanel;
     public GameObject controlPanel;
+    public GameObject statusPanel;
+
+    [Header("Slider Volume")]
+    public Slider musicSlider;
+    public Slider sfxSlider;
 
     private bool isPaused = false;
 
+    void Start()
+    {
+        // Inisialisasi slider dengan volume tersimpan
+        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0f);
+        sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume", 0f);
+
+        // Hubungkan slider ke fungsi volume manager
+        musicSlider.onValueChanged.AddListener(MusicManager.Instance.SetVolume);
+        sfxSlider.onValueChanged.AddListener(SoundManager.Instance.SetVolume);
+    }
+
     void Update()
     {
-        // Tombol keyboard M untuk pause / resume
         if (Input.GetKeyDown(KeyCode.M))
         {
             TogglePause();
         }
     }
 
-    // Bisa dipanggil dari keyboard atau tombol UI Pause
     public void TogglePause()
     {
         if (isPaused)
@@ -33,26 +49,24 @@ public class Pausemenu : MonoBehaviour
     {
         Time.timeScale = 0f;
         isPaused = true;
-
-        // Tampilkan pause menu dan sembunyikan panel lainnya
         pauseMenuUI.SetActive(true);
         optionPanel.SetActive(false);
         volumePanel.SetActive(false);
         creditPanel.SetActive(false);
         controlPanel.SetActive(false);
+        if (statusPanel != null) statusPanel.SetActive(false);
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1f;
         isPaused = false;
-
-        // Tutup semua panel
         pauseMenuUI.SetActive(false);
         optionPanel.SetActive(false);
         volumePanel.SetActive(false);
         creditPanel.SetActive(false);
         controlPanel.SetActive(false);
+        if (statusPanel != null) statusPanel.SetActive(false);
     }
 
     // --- Navigasi antar panel ---
@@ -63,6 +77,7 @@ public class Pausemenu : MonoBehaviour
         volumePanel.SetActive(false);
         creditPanel.SetActive(false);
         controlPanel.SetActive(false);
+        if (statusPanel != null) statusPanel.SetActive(false);
     }
 
     public void OpenVolumePanel()
@@ -83,6 +98,20 @@ public class Pausemenu : MonoBehaviour
         controlPanel.SetActive(true);
     }
 
-    // Back button dari semua panel (kecuali PauseMenu)
+    public void OpenStatusPanel()
+    {
+        pauseMenuUI.SetActive(false);
+        optionPanel.SetActive(false);
+        volumePanel.SetActive(false);
+        creditPanel.SetActive(false);
+        controlPanel.SetActive(false);
+        if (statusPanel != null) statusPanel.SetActive(true);
+    }
 
+    // 🆕 Tombol Quit ke Main Menu
+    public void QuitToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu"); // Ganti jika nama scene utama kamu berbeda
+    }
 }
