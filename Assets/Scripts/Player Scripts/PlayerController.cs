@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
     public bool walk = false;
     public bool jump = false;
     public bool fall = false;
+    public bool dash = false;
 
 
     private void Awake()
@@ -79,6 +80,8 @@ public class PlayerController : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
+        anim.SetBool("dash", dash);
+        dash = true;
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         float dashDirection = isFacingRight ? 1f : -1f;
@@ -86,6 +89,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(dashingTime);
         rb.gravityScale = originalGravity;
         isDashing = false;
+        dash = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
@@ -257,7 +261,6 @@ public class PlayerController : MonoBehaviour
     {
         return anim.GetCurrentAnimatorStateInfo(0).IsName("attack");
     }
-
 
     IEnumerator DisableCollision(Collider2D platform)
     {
