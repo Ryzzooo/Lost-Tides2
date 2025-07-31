@@ -31,7 +31,6 @@ public class PlayerController : MonoBehaviour
     public bool walk = false;
     public bool jump = false;
     public bool fall = false;
-    bool attack = false;
 
 
     private void Awake()

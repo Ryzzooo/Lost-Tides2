@@ -15,9 +15,7 @@ public class PlayerAttack : MonoBehaviour
     public int Damage = 1;
 
     public Animator anim;
-    public bool attack = false;
     public bool idle = false;
-    string attack_param = "attack";
 
     private void Awake()
     {
