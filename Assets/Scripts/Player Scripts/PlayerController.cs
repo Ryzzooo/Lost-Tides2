@@ -77,22 +77,38 @@ public class PlayerController : MonoBehaviour
     }
 
     private IEnumerator Dash()
+{
+    canDash = false;
+    isDashing = true;
+
+    dash = true;
+    anim.SetBool("dash", dash);
+
+    float originalGravity = rb.gravityScale;
+    rb.gravityScale = 0f;
+
+    float dashDirection = isFacingRight ? 1f : -1f;
+
+    float elapsed = 0f;
+
+    while (elapsed < dashingTime)
     {
-        canDash = false;
-        isDashing = true;
-        anim.SetBool("dash", dash);
-        dash = true;
-        float originalGravity = rb.gravityScale;
-        rb.gravityScale = 0f;
-        float dashDirection = isFacingRight ? 1f : -1f;
-        rb.linearVelocity = new Vector2(dashDirection * dashingPower, 0f);
-        yield return new WaitForSeconds(dashingTime);
-        rb.gravityScale = originalGravity;
-        isDashing = false;
-        dash = false;
-        yield return new WaitForSeconds(dashingCooldown);
-        canDash = true;
+        rb.linearVelocity = new Vector2(dashDirection * dashingPower, 0f); // Jaga kecepatan setiap frame
+        elapsed += Time.deltaTime;
+        yield return null; // Tunggu frame berikutnya
     }
+
+    rb.gravityScale = originalGravity;
+    isDashing = false;
+
+    dash = false;
+    anim.SetBool("dash", dash);
+
+    yield return new WaitForSeconds(dashingCooldown);
+    canDash = true;
+}
+
+
 
     bool onWall()
     {
