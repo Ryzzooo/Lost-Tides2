@@ -56,4 +56,4 @@ public class EnemyController : MonoBehaviour
     {
         Gizmos.DrawWireSphere(groundChecker.position, groundCheckerRadius);
     }
-}
+}  

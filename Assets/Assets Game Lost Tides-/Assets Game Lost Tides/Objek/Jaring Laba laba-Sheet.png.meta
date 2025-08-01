@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: c2bcd641660e0864e934c6338323dd5c
+guid: d4b588cee1b44c347838587efd26f43e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -226947640000549773
-    second: OBJBG-1 Motel-Color-White_0
+      213: -7567839117356017490
+    second: Jaring Laba laba-Sheet_0
+  - first:
+      213: 7950293938488790933
+    second: Jaring Laba laba-Sheet_1
+  - first:
+      213: -2369194339206864110
+    second: Jaring Laba laba-Sheet_2
+  - first:
+      213: -1728779515463450176
+    second: Jaring Laba laba-Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,30 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OBJBG-1 Motel-Color-White_0
+      name: Jaring Laba laba-Sheet_0
       rect:
         serializedVersion: 2
-        x: 251
-        y: 11
-        width: 187
-        height: 321
+        x: 56
+        y: 89
+        width: 14
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37c6727e258b9dcf0800000000000000
-      internalID: -226947640000549773
+      spriteID: ea850bc3b62a9f690800000000000000
+      internalID: -7567839117356017490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaring Laba laba-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 77
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fc09fe63e155e60800000000000000
+      internalID: 7950293938488790933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaring Laba laba-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 59
+        width: 35
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21365bf0d4eee1fd0800000000000000
+      internalID: -2369194339206864110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jaring Laba laba-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 56
+        width: 35
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c144dda0342208e0800000000000000
+      internalID: -1728779515463450176
       vertices: []
       indices: 
       edges: []
@@ -147,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      OBJBG-1 Motel-Color-White_0: -226947640000549773
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

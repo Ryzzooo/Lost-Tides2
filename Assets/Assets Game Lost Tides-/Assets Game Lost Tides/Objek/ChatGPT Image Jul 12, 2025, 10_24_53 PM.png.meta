@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c2bcd641660e0864e934c6338323dd5c
+guid: 938e7050af41de1459bd118291830080
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -226947640000549773
-    second: OBJBG-1 Motel-Color-White_0
+      213: -5116175735016730008
+    second: ChatGPT Image Jul 12, 2025, 10_24_53 PM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OBJBG-1 Motel-Color-White_0
+      name: ChatGPT Image Jul 12, 2025, 10_24_53 PM_0
       rect:
         serializedVersion: 2
-        x: 251
-        y: 11
-        width: 187
-        height: 321
+        x: 86
+        y: 32
+        width: 936
+        height: 987
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37c6727e258b9dcf0800000000000000
-      internalID: -226947640000549773
+      spriteID: 862dad19641bff8b0800000000000000
+      internalID: -5116175735016730008
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      OBJBG-1 Motel-Color-White_0: -226947640000549773
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

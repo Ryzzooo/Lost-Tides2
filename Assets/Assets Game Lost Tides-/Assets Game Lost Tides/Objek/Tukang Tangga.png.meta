@@ -116,12 +116,12 @@ TextureImporter:
       name: Tukang Tangga_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 191
-        width: 674
+        x: 36
+        y: 194
+        width: 675
         height: 338
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d678d106e50090543a22bacf8f266e51
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +149,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Tukang Tangga_0: 1914209338113935403
+      Tukang Tangga_1: -2025474042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

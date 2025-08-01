@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: a83c69f778d9ee7468054085828e490a
+guid: aa4ac08345a0f314392ec0edaf8f4d27
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8510796947551051675
-    second: Kucing Menerpa-Sheet_0
+      213: 8750477651181287019
+    second: Tikus Lari-Sheet_0
   - first:
-      213: 4188566366791820675
-    second: Kucing Menerpa-Sheet_1
+      213: -2017654421745486150
+    second: Tikus Lari-Sheet_1
   - first:
-      213: 6870955520474750713
-    second: Kucing Menerpa-Sheet_2
+      213: -551663891046831908
+    second: Tikus Lari-Sheet_2
   - first:
-      213: -5806597177672478798
-    second: Kucing Menerpa-Sheet_3
+      213: 6852118447359514523
+    second: Tikus Lari-Sheet_3
   - first:
-      213: 3990789558365465737
-    second: Kucing Menerpa-Sheet_4
+      213: 3596389869885904539
+    second: Tikus Lari-Sheet_4
   - first:
-      213: -8269274433878310631
-    second: Kucing Menerpa-Sheet_5
+      213: 4869617855125545102
+    second: Tikus Lari-Sheet_5
+  - first:
+      213: 1896388259673222990
+    second: Tikus Lari-Sheet_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,30 +114,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kucing Menerpa-Sheet_0
+      name: Tikus Lari-Sheet_0
       rect:
         serializedVersion: 2
-        x: 83
+        x: 14
         y: 0
-        width: 254
-        height: 217
+        width: 257
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 560adb1b44393e980800000000000000
-      internalID: -8510796947551051675
+      spriteID: b66b7adcf01ff6970800000000000000
+      internalID: 8750477651181287019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kucing Menerpa-Sheet_1
+      name: Tikus Lari-Sheet_1
       rect:
         serializedVersion: 2
-        x: 446
+        x: 413
         y: 0
-        width: 284
-        height: 205
+        width: 239
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38566ca2be6c02a30800000000000000
-      internalID: 4188566366791820675
+      spriteID: ab63d505ef9dff3e0800000000000000
+      internalID: -2017654421745486150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kucing Menerpa-Sheet_2
+      name: Tikus Lari-Sheet_2
       rect:
         serializedVersion: 2
-        x: 824
+        x: 809
         y: 0
-        width: 290
-        height: 199
+        width: 233
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fe186954a98a5f50800000000000000
-      internalID: 6870955520474750713
+      spriteID: cd86eba2d981858f0800000000000000
+      internalID: -551663891046831908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kucing Menerpa-Sheet_3
+      name: Tikus Lari-Sheet_3
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 14
-        width: 296
-        height: 227
+        x: 1211
+        y: 11
+        width: 215
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bfcb0fa1a2da6fa0800000000000000
-      internalID: -5806597177672478798
+      spriteID: b97d3cd7c6d971f50800000000000000
+      internalID: 6852118447359514523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kucing Menerpa-Sheet_4
+      name: Tikus Lari-Sheet_4
       rect:
         serializedVersion: 2
-        x: 1592
-        y: 5
-        width: 293
-        height: 233
+        x: 1598
+        y: 20
+        width: 209
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +221,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98c26bf85f1226730800000000000000
-      internalID: 3990789558365465737
+      spriteID: b96dc5c3881f8e130800000000000000
+      internalID: 3596389869885904539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kucing Menerpa-Sheet_5
+      name: Tikus Lari-Sheet_5
       rect:
         serializedVersion: 2
-        x: 1976
+        x: 1991
+        y: 11
+        width: 20
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8068ae83ab549340800000000000000
+      internalID: 4869617855125545102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tikus Lari-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2003
         y: 0
-        width: 290
-        height: 226
+        width: 194
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 911c67207b2ad3d80800000000000000
-      internalID: -8269274433878310631
+      spriteID: e4f2b0e1313515a10800000000000000
+      internalID: 1896388259673222990
       vertices: []
       indices: 
       edges: []
@@ -272,13 +284,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Kucing Menerpa-Sheet_0: -8510796947551051675
-      Kucing Menerpa-Sheet_1: 4188566366791820675
-      Kucing Menerpa-Sheet_2: 6870955520474750713
-      Kucing Menerpa-Sheet_3: -5806597177672478798
-      Kucing Menerpa-Sheet_4: 3990789558365465737
-      Kucing Menerpa-Sheet_5: -8269274433878310631
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
