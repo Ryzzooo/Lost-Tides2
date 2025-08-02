@@ -19,7 +19,7 @@ public class fallingbox : MonoBehaviour
     {
         if (!hasFallen)
         {
-            rb.gravityScale = 7f; // Aktifkan gravitasi
+            rb.gravityScale = 10f; // Aktifkan gravitasi
             hasFallen = true;
             Debug.Log("Box mulai jatuh!");
         }

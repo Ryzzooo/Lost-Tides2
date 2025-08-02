@@ -130,7 +130,7 @@ TextureImporter:
         width: 293
         height: 176
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,7 +152,7 @@ TextureImporter:
         width: 134
         height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,7 +174,7 @@ TextureImporter:
         width: 134
         height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: Rumah_3
       rect:
         serializedVersion: 2
-        x: 0
+        x: 28
         y: 0
-        width: 768
-        height: 211
+        width: 320
+        height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,11 +209,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Rumah_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 311
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b68ab2902c324eb328709e4f2e30a
+      internalID: -1223653550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bca26d987f487d44d9673fea30a12e46
     internalID: 0
     vertices: []
     indices: 
@@ -227,6 +249,7 @@ TextureImporter:
       Rumah_1: -6457405959233600726
       Rumah_2: 8071613146119284497
       Rumah_3: -7654056593569225604
+      Rumah_4: -1223653550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
