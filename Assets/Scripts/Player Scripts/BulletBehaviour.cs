@@ -5,7 +5,7 @@ public class BulletBehaviour : MonoBehaviour
 {
     public float speed, damage, destroyTime;
     public float wait = 0.3f;
-    //private bool ilang = false;
+
     private Animator anim;
     private BoxCollider2D boxCollider;
 
@@ -15,6 +15,7 @@ public class BulletBehaviour : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         Destroy(gameObject, destroyTime);
     }
+
     void Update()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
@@ -24,6 +25,7 @@ public class BulletBehaviour : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            // Coba cari EnemyHealth
             EnemyHealth enemy = collision.GetComponentInParent<EnemyHealth>();
             if (enemy != null)
             {
@@ -31,16 +33,21 @@ public class BulletBehaviour : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning("EnemyHealth tidak ditemukan pada atau di atas " + collision.name);
+                // Kalau bukan musuh biasa, coba cari Boss
+                BossHealth boss = collision.GetComponentInParent<BossHealth>();
+                if (boss != null)
+                {
+                    boss.TakeDamage(damage);
+                }
+                else
+                {
+                    Debug.LogWarning("EnemyHealth atau BossHealth tidak ditemukan pada " + collision.name);
+                }
             }
 
             StartCoroutine(Hilang());
         }
-        else if (collision.CompareTag("Environment"))
-        {
-            StartCoroutine(Hilang());
-        }
-        else if (collision.CompareTag("Ground"))
+        else if (collision.CompareTag("Environment") || collision.CompareTag("Ground"))
         {
             StartCoroutine(Hilang());
         }

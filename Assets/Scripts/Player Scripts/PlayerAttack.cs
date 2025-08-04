@@ -21,6 +21,7 @@ public class PlayerAttack : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
+
     private void Update()
     {
         if (cooldownTimer > 0)
@@ -38,9 +39,24 @@ public class PlayerAttack : MonoBehaviour
 
         Debug.Log("Serang!");
         Collider2D[] enemiesInRange = Physics2D.OverlapCircleAll(attackOrigin.position, attackRadius, enemyMask);
+
         foreach (var enemy in enemiesInRange)
         {
-            enemy.GetComponent<EnemyHealth>().TakeDamage(Damage);
+            // Coba cari EnemyHealth
+            var enemyHealth = enemy.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(Damage);
+            }
+            else
+            {
+                // Coba cari BossHealth
+                var bossHealth = enemy.GetComponent<BossHealth>();
+                if (bossHealth != null)
+                {
+                    bossHealth.TakeDamage(Damage);
+                }
+            }
         }
 
         cooldownTimer = cooldownTime;
@@ -55,6 +71,4 @@ public class PlayerAttack : MonoBehaviour
     {
         return anim.GetBool("idle");
     }
-
-
 }
