@@ -72,6 +72,11 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"project setting"
+	"project"
+	"proj"
+	"project mana"
+	"project manager"
 ]
 searchItemFavorites = [
 ]

@@ -881,6 +881,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1822439502}
   - {fileID: 748088028}
   - {fileID: 1354907041}
   - {fileID: 1956414462}
@@ -1930,12 +1931,11 @@ RectTransform:
   - {fileID: 2086943744}
   - {fileID: 887780499}
   - {fileID: 1435570626}
-  - {fileID: 1822439502}
   m_Father: {fileID: 198567865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0032195977, y: -200}
+  m_AnchoredPosition: {x: -0.0032195977, y: -97}
   m_SizeDelta: {x: 793.03, y: 633.2864}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &786256318
@@ -3455,7 +3455,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3646,11 +3646,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 195439807}
-  m_Father: {fileID: 748088028}
+  m_Father: {fileID: 198567865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0032348633, y: 511}
+  m_AnchoredPosition: {x: -0.000026260968, y: 345.99994}
   m_SizeDelta: {x: 793.0216, y: 175.0469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1881124149

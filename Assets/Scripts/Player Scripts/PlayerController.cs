@@ -219,16 +219,20 @@ public class PlayerController : MonoBehaviour
         {
             jump = true;
         }
-
-        if (!isJumping && !IsOnGround())
-        {
-            isJumping = true;
-        }
-        else if (isJumping && IsOnGround())
+        else if (isJumping == false)
         {
             jump = false;
-            isJumping = false;
         }
+
+        if (!isJumping && !IsOnGround())
+            {
+                isJumping = true;
+            }
+            else if (isJumping && IsOnGround())
+            {
+                jump = false;
+                isJumping = false;
+            }
     }
 
     void Fall()

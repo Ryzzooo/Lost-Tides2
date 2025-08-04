@@ -66,6 +66,9 @@ public class MusicManager : MonoBehaviour
             case "SampleScene":
                 PlayMusic("game");
                 break;
+            case "Percobaan satu":
+                PlayMusic("game");
+                break;
             default:
                 Debug.Log("No matching music for scene: " + sceneName);
                 break;
