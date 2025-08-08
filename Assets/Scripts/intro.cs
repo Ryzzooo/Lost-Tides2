@@ -4,10 +4,10 @@ using UnityEngine.UI;
 
 public class IntroScene : MonoBehaviour
 {
-    [SerializeField] float introDuration = 6f; // Total durasi intro, 6 detik karena 2 gambar x 3 detik
+    [SerializeField] float introDuration = 4f; // Total durasi intro, 6 detik karena 2 gambar x 3 detik
     [SerializeField] Image imageDisplay; // Drag UI Image ke sini
     [SerializeField] Sprite[] sprites; // Isi 2 gambar di Inspector
-    [SerializeField] float changeInterval = 3f; // Ganti tiap 3 detik
+    [SerializeField] float changeInterval = 2f; // Ganti tiap 3 detik
 
     private int currentIndex = 0;
 

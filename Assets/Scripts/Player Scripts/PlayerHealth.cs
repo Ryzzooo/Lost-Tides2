@@ -13,7 +13,14 @@ public class PlayerHealth : MonoBehaviour
         {
             health = 0;
             print("player dead");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            transform.position = RespawnManager.Instance.respawnPoint.position;
+            health = healthUI.Length;
+            foreach (GameObject icon in healthUI)
+            {
+                icon.SetActive(true);
+            }
+
+            return;
         }
         healthUI[health].SetActive(false);
     }

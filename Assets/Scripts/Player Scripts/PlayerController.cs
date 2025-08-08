@@ -145,6 +145,12 @@ public class PlayerController : MonoBehaviour
         {
             idle = false;
         }
+        else if (move == 0 && lari != movementSpeed)
+        {
+            walk = false;
+            idle = true;
+            anim.SetBool("run", false);
+        }
         else
         {
             idle = true;
@@ -167,6 +173,8 @@ public class PlayerController : MonoBehaviour
     {
         if (IsAttacking()) return;
         anim.SetBool("run", run);
+        anim.SetBool("walk", walk);
+        anim.SetBool("idle", idle);
         float move = Input.GetAxisRaw("Horizontal");
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -176,6 +184,12 @@ public class PlayerController : MonoBehaviour
             {
                 fall = false;
                 run = true;
+            }
+            else if (move == 0)
+            {
+                run = false;
+                walk = false;
+                idle = true;
             }
         }
         else if (Input.GetKeyUp(KeyCode.LeftShift))
