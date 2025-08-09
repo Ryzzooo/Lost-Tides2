@@ -1539,7 +1539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat anda telat menyelaesaikann tutorial
+  m_text: Selamat anda telah menyelaesaikann tutorial
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
   m_sharedMaterial: {fileID: 6817111023381710360, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
@@ -28430,7 +28430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Stage 1
+  m_text: Next
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
   m_sharedMaterial: {fileID: 6817111023381710360, guid: 2620bb6f9c897ab47a83e3cda260802c, type: 2}
