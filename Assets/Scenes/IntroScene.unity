@@ -708,7 +708,7 @@ MonoBehaviour:
   introDuration: 5
   imageDisplay: {fileID: 728890955}
   sprites:
-  - {fileID: -7547430074785817455, guid: 44f23027625bf25428d1b87451ae1e15, type: 3}
+  - {fileID: 4749203502145700798, guid: 5ac85cb7e4834a14b96ea0808a2d04c5, type: 3}
   - {fileID: 4315113847086402665, guid: b20c3ab3510638f458717d01ffb94ef5, type: 3}
   changeInterval: 3
 --- !u!1 &974071406
