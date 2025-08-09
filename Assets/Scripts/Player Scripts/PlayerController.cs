@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
     public LayerMask whatIsGround2;
     public LayerMask platformLayer;
+    public LayerMask enemyLayer;
 
     //animation
     Animator anim;
@@ -73,7 +74,7 @@ public class PlayerController : MonoBehaviour
 
     bool IsOnGround()
     {
-        return isGrounded() || isGrounded2() || isGrounded3() || Grounded() || Grounded2() || Grounded3();
+        return isGrounded() || isGrounded2() || isGrounded3() || Grounded() || Grounded2() || Grounded3() || Grounded4() || isGrounded4();
     }
 
     private IEnumerator Dash()
@@ -145,12 +146,6 @@ public class PlayerController : MonoBehaviour
         {
             idle = false;
         }
-        else if (move == 0 && lari != movementSpeed)
-        {
-            walk = false;
-            idle = true;
-            anim.SetBool("run", false);
-        }
         else
         {
             idle = true;
@@ -173,8 +168,6 @@ public class PlayerController : MonoBehaviour
     {
         if (IsAttacking()) return;
         anim.SetBool("run", run);
-        anim.SetBool("walk", walk);
-        anim.SetBool("idle", idle);
         float move = Input.GetAxisRaw("Horizontal");
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -184,12 +177,6 @@ public class PlayerController : MonoBehaviour
             {
                 fall = false;
                 run = true;
-            }
-            else if (move == 0)
-            {
-                run = false;
-                walk = false;
-                idle = true;
             }
         }
         else if (Input.GetKeyUp(KeyCode.LeftShift))
@@ -367,6 +354,11 @@ public class PlayerController : MonoBehaviour
         return Physics2D.OverlapCircle(groundChecker.position, radius, platformLayer);
     }
 
+    bool isGrounded4()
+    {
+        return Physics2D.OverlapCircle(groundChecker.position, radius, enemyLayer);
+    }
+
     bool Grounded()
     {
         return Physics2D.OverlapCircle(groundChecker2.position, radius, whatIsGround);
@@ -380,6 +372,10 @@ public class PlayerController : MonoBehaviour
     bool Grounded3()
     {
         return Physics2D.OverlapCircle(groundChecker2.position, radius, platformLayer);
+    }
+    bool Grounded4()
+    {
+        return Physics2D.OverlapCircle(groundChecker2.position, radius, enemyLayer);
     }
 
     void OnDrawGizmos()
