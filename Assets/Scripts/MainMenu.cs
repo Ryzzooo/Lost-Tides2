@@ -18,7 +18,7 @@ public class MainMenuUI : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("IntroScene"); // menuju scene intro
+        SceneManager.LoadScene("Sekolah"); // menuju scene Sekolah
     }
 
     public void QuitGame()

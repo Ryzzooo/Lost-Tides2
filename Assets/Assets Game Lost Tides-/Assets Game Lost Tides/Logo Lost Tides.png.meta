@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Logo Lost Tides_0: 5702066600574143383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
